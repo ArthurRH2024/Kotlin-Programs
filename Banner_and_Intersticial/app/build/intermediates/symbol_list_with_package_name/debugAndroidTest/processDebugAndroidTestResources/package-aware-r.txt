@@ -1,0 +1,3 @@
+com.arhsystems.bannerintsersticial.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

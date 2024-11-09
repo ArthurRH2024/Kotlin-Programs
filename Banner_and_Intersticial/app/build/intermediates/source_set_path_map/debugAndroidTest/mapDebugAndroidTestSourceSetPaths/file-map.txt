@@ -1,0 +1,6 @@
+com.arhsystems.bannerintsersticial.test.app-core-1.6.1-0 /home/pomerin/.gradle/caches/transforms-4/a996110ffe830fbdb66dc569c456a3e8/transformed/core-1.6.1/res
+com.arhsystems.bannerintsersticial.test.app-tracing-1.2.0-1 /home/pomerin/.gradle/caches/transforms-4/ec9e96f26527ee5fd61f7d4d597cfb1a/transformed/tracing-1.2.0/res
+com.arhsystems.bannerintsersticial.test.app-androidTest-2 /home/pomerin/AndroidStudioProjects/BannerIntsersticial/app/build/generated/res/resValues/androidTest/debug
+com.arhsystems.bannerintsersticial.test.app-mergeDebugAndroidTestResources-3 /home/pomerin/AndroidStudioProjects/BannerIntsersticial/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.arhsystems.bannerintsersticial.test.app-mergeDebugAndroidTestResources-4 /home/pomerin/AndroidStudioProjects/BannerIntsersticial/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.arhsystems.bannerintsersticial.test.app-debugAndroidTest-5 /home/pomerin/AndroidStudioProjects/BannerIntsersticial/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
