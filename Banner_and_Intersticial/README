@@ -1,0 +1,47 @@
+Para que se muestren los anuncios correctamente ya sea Banner o Intersticial, hay que hacer lo siguiente:
+
+1 - Hay que modificar el archivo llamado settings.gradle.kts
+
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Nombre de tu proyecto" --> En esta parte por default te la va a poner Android Studio
+include(":app")
+
+2 - Despúes hay que imprementar en el archivo build.gradle.kts lo siguiente:
+
+dependencies {
+
+    implementation(libs.androidx.core.ktx)
+    .
+    .
+    .
+    implementation(libs.play.services.ads) --> Esto hay que agregar
+
+    .
+    .
+    .
+}
+
+En esta parte, en el sitio de desarrollo de Android te dice que debes de escribir esto implementation("com.google.android.gms:play-services-ads:23.3.0") PEROOOOO, despúes de que
+hayas sincronizado, el entorno de desarrollo de Android studio koala 2024.1.2 te recomienda que lo cambies por implementation(libs.play.services.ads), si lo desean haganlo.
+
+3 - Ya solo verifiquen el contenido del Manifiesto, y el layout principal para que vean como se establece el anuncio banner.
+4 - No se maneja algun item para el intersticial, ya que es para pantalla completa, deben de establecer en qué momento deben de lanzar el anuncio.
+
+Notas:
+
+Con el anuncio banner muestra un recuadro en este caso en el layout principal o mejor dicho, al inicio de la aplicacion.
+Con el anuncio intersticial muestra un anuncio de pantalla completa cuando el usuario le da al boton de retroceso para salir de la aplicación.
